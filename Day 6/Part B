@@ -1,0 +1,12 @@
+def main():
+    f = open('C:\#dev\AOC - Solutions\AdventOfCode2022\Day 6\input.txt', 'r') 
+    datastream = f.read()
+    temp = set()
+    print(datastream)
+    for i in range(len(datastream)):
+        chars = datastream[i:i+14]
+        temp.add(chars)
+        if len(set(chars)) == 14:
+            return i + 14
+
+print(main())
