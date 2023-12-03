@@ -15,7 +15,6 @@ def unpackGames(game_data):
     sum_of_ids = 0
     for game in game_data:
         cubes = {"red": 0, "green": 0, "blue": 0}
-        print(game)
         # split game id and game information
         game = game.split(":")
         # save game id

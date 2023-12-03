@@ -1,6 +1,3 @@
-bag_contents = {"red": 12, "green": 13, "blue": 14}
-
-
 def unpackGames(game_data):
     sum_of_sets = 0
     for game in game_data:
