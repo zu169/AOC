@@ -9,6 +9,7 @@ def isAdjacentSymbol(num, i, previous_line, current_line, next_line):
         elif next_line[i - 1].isdigit() == False and next_line[i - 1] != ".":
             print("next")
             return int(num)
+
     for n in range(i, i + len(num)):
         if previous_line[n].isdigit() == False and previous_line[n] != ".":
             print("previous above")
